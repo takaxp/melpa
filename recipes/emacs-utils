@@ -1,0 +1,1 @@
+(emacs-utils :fetcher github :repo "syohex/emacs-utils")
