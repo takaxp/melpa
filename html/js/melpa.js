@@ -100,9 +100,9 @@
   //////////////////////////////////////////////////////////////////////////////
 
   melpa.packageList = m.sync([
-    m.request({method: 'GET', url: "/recipes.json"}),
-    m.request({method: 'GET', url: "/archive.json"}),
-    m.request({method: 'GET', url: "/download_counts.json"})
+    m.request({method: 'GET', url: "/melpa/recipes.json"}),
+    m.request({method: 'GET', url: "/melpa/archive.json"}),
+    m.request({method: 'GET', url: "/melpa/download_counts.json"})
   ]).then(function (info) {
     var recipes = info[0], archive = info[1], downloads = info[2];
 
@@ -485,7 +485,7 @@
     this.duration = m.prop();
     this.running = function() { return !this.completed(); }.bind(this);
 
-    m.request({method: 'GET', url: "/build-status.json", background: true})
+    m.request({method: 'GET', url: "/melpa/build-status.json", background: true})
       .then(function(status){
         m.startComputation();
         this.started(maybeDate(status.started));
