@@ -1,0 +1,6 @@
+(emacswiki :fetcher github
+           :repo "emacsmirror/emacswiki.org"
+           :branch "master"
+           :files ("backup-each-save.el"
+                   "help-fns+.el"
+                   "ascii.el"))
