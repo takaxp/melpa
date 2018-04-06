@@ -45,6 +45,8 @@
 (require 'lisp-mnt)
 (require 'json)
 
+(setq debug-on-error t)
+
 ;;; Options
 
 (defconst package-build--melpa-base

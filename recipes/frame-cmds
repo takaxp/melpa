@@ -1,1 +1,1 @@
-(frame-cmds :fetcher github :repo "emacsmirror/frame-cmds")
+(frame-cmds :fetcher github :repo "takaxp/frame-cmds")
