@@ -1,1 +1,1 @@
-(help-fns+ :fetcher github :repo "emacsmirror/help-fns-plus")
+(help-fns+ :fetcher github :repo "takaxp/help-fns-plus")
