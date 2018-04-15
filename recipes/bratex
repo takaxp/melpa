@@ -1,2 +1,2 @@
-(moom :repo "sbrisard/bratex"
-      :fetcher github)
+(bratex :repo "sbrisard/bratex"
+        :fetcher github)
