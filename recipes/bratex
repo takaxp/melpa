@@ -1,0 +1,2 @@
+(moom :repo "sbrisard/bratex"
+      :fetcher github)
